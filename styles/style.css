@@ -1,0 +1,49 @@
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    
+}
+
+.main{
+    margin: 0 auto;
+    height: 800px;
+    width: 960px;
+}
+
+.nav  {
+    border: 2px solid black;
+    border-width:2px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;   
+    background-color: green;
+
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+color: white;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 25px;
+}
+
+.box1{
+     margin-left: 20px;
+     margin-top: 30px;
+    height: 20px;
+    width: 200px;
+    color: white;
+    font: 90.0% Arial, Verdana, sans-serif;
+    padding: 15px;
+    float: left;
+    background-color: blue;
+}

@@ -1,50 +1,56 @@
 @import "reset.css";
 
-h2 {
+header{
     text-align: center;
+}
+
+h2 {
     font-size: 50px;
-    color: green;
-    
+    color: purple;
 }
 
-.main{
+main{
     margin: 0 auto;
-    height: 800px;
-    width: 960px;
+    height: 70%;
+    width: 100%;
 }
 
-.nav  {
+nav  {
     border: 2px solid black;
-    border-width:2px 0;
     list-style:none;
     margin:0;
     padding:0;
     text-align:center;   
-    background-color: green;
-
+    background-color: rebeccapurple;
 }
 
-.nav li{
+nav li{
     display:inline;
 }
 
-.nav a{
+nav a{
     display:inline-block;
     padding:10px;
-color: white;
-     text-decoration: none;
-     font-weight: bold;
-     font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .box1{
-     margin-left: 20px;
-     margin-top: 30px;
-    height: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 1em;
     width: 200px;
     color: white;
     font: 90.0% Arial, Verdana, sans-serif;
     padding: 15px;
     float: left;
     background-color: blue;
+}
+
+footer{
+    text-align: center;
+    float: bottom;
+    color: gray;
 }

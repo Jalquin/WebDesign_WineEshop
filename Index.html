@@ -3,32 +3,54 @@
 
 <head>
     <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="js/navbar.js"></script>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>Semestralni projekt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wine Market - O nás</title>
 </head>
 
 <body>
 
 <header>
-
-    <h2> O nás </h2>
-
-    <nav>
-        <ul>
-            <li><a class="active" href="Index.html">O nás</a></li>
-            <li><a href="Sluzby.html">Naše služby</a></li>
-            <li><a href="Nabidka.html">Nabídka vín</a></li>
-            <li><a href="Doplnky.html">Doplňky a delikatesy</a></li>
-            <li><a href="Akce.html">Akce</a></li>
-            <li><a href="Kontakt.html">Kontakt</a></li>
-        </ul>
+    <h1>O nás</h1>
+    <nav class="topnav" id="myTopnav">
+        <a class="logo" href="Nabidka.html"><img src="logo.png" alt="logo"></a>
+        <a href="Nabidka.html">Nabídka vín</a>
+        <a href="Doplnky.html">Doplňky a delikatesy</a>
+        <a class="right" href="Kosik.html">Košík</a>
+        <a class="active right" href="Index.html">O nás</a>
+        <a class="right" href="Kontakt.html">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
     </nav>
-
 </header>
 
 <main>
-    <div class="box1">
-        Jedná se o studentský projekt!
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div>
+        </div>
+        <div class="main">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <br>
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
     </div>
 </main>
 

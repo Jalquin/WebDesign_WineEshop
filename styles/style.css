@@ -6,16 +6,17 @@
 
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 1em;
     font-family: Arial, serif;
 }
 
 h1 {
     text-align: center;
-    font-size: 50px;
-    color: maroon;
+    font-size: 3em;
+    color: #9a031e;
     background: #ddd;
-    margin: 0;
+    padding: 0.1em 0;
+    margin: 0 0;
 }
 
 h2 {
@@ -40,11 +41,7 @@ h5 {
 }
 
 main{
-    padding-top: 53px;
-}
-
-@media screen and (max-width: 855px){
-    main{padding-top: 106px;}
+    padding-top: 3.5rem;
 }
 
 .row {
@@ -74,16 +71,13 @@ footer {
     text-align: center;
     float: bottom;
     color: gray;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    bottom: 0;
-    padding: 20px;
+    padding: 1em;
     background: #ddd;
 }
 
 nav {
     overflow: hidden;
-    background-color: #800000;
+    background-color: #bcb8b1;
     position: fixed;
     width: 100%;
 }
@@ -93,10 +87,9 @@ nav a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1rem 1rem;
     text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .logo {
@@ -108,7 +101,7 @@ nav a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 53px;
+    height: 3.5rem;
     padding: 0 0;
 }
 
@@ -122,25 +115,24 @@ nav a.icon {
 }
 
 nav a:hover:not(.active) {
-    background-color: #d6471a;
+    background-color: #e36414;
     transition: 0.3s;
 }
 
-nav a.active {background-color: #D10000;}
+nav a.active {background-color: #e5989b;}
 
 nav a.right {float: right;}
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 855px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
         float: right;
         display: block;
     }
-    main{padding-top: 53px;}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 855px) {
     .topnav.responsive {position: fixed;}
     .topnav.responsive.icon {
         position: absolute;
@@ -152,7 +144,6 @@ nav a.right {float: right;}
         display: block;
         text-align: left;
     }
-    main{padding-top: 53px;}
 }
 
 @media screen and (max-width: 700px) {

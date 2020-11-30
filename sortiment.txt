@@ -1,51 +1,201 @@
-Vína
+Vína bílá
 
-Název: Riesling trocken
+1.
+Název: Riesling trocken 2019
 Vinařství: Geil
 Původ: Německo
 Odrůda: 100% Riesling
+Objem: 0,75 l
 Cena: 210 Kč
 
 Podrobnosti: Klasický ovocný a minerální ryzlink z Rheinhessenu. Dominují mu tóny meruněk ve vůni i chuti a v závěru s citrusovým podtextem. Skvělé víno v praktickém balení pro každý den.
 
 Další informace:
-Barva vína - Bílé
-Kategorie vína - Tiché
-Cukernatost - Suché
+Barva vína - bílé
+Kategorie vína - tiché
+Cukernatost - suché
 Obsah alkoholu (%) - 11,5
 
+2.
+Název: Oris 2017
+Vinařství: Ciu Ciu
+Původ: Španělsko
+Odrůda: Pecorino, Passerina, Trebbiano
+Objem: 0,75 l
+Cena: 180 Kč
+
+Podrobnosti: Jemné cuvée klasických odrůd oblasti Marche. Jemné, lehké víno s aroma žlutého ovoce a doteky bílých květů, v chuti je osvěžující a ovocité.
+
+Další informace:
+Barva vína - bílá
+Kategorie vína - tiché
+Cukernatost - suché
+Obsah alkoholu (%) - 13
+
+3.
+Název: Pálava Terroir 2017/2018
+Vinařství: Václav
+Původ: Česká Republika
+Objem: 0,75l
+Cena: 370 Kč
+
+Podrobnosti: Víno slámově žluté barvy, výrazné vůně s typickou odrůdovou aromatikou a projevem dobře vyzrálého domácího a tropického ovoce, květnatosti a jemné kořenitosti. Suché a přímé s intenzivním ovocným projevem, šťavnatou a osvěžující kyselinou a dlouhou a komplexní kořenitou dochutí. Víno zrálo po dobu 11 měsíců v nerezovém tanku na jemných kalech.
+
+Barva vína - bílá
+Kategorie vína - tiché
+Cukernatost - suché
+Obsah alkoholu (%) - 12,5
+
+
+Vína šumivá
+
+1.
 Název: Cava del Charche Brut
 Vinařství: Hacienda del Carche
 Původ: Španělsko
 Odrůda: Macabeo, Xarel-lo, Parellada
+Objem: 0,75 l
 Cena: 215 Kč
 
 Podrobnosti: Cava, šumivé víno vyrobené tradiční metodou ve Španělsku, v klasické kupáži 3 autochtonních odrůd. Vyznačuje se jemným perlením, lehkou zelinkavou barvou, vůní citrusů, bylinek a biskvitů a lehkou, svěží chutí. Ideální aperitiv či drink pro horké letní dny.
 Zralost: ideálně spotřebovat do 2 let
 
 Další informace:
-Barva vína - Bílé
-Kategorie vína - Šumivé
+Barva vína - bílé
+Kategorie vína - šumivé
 Cukernatost - suché
 Obsah alkoholu (%) - 12
 
-Název: Hermandad Malbec
+2.
+Název: Gardet 120 Anniversary Extra Brut
+Vinařství: Gardet
+Původ: Francie
+Odrůda: Chardonnay, Pinot Noir
+Objem: 1,5 l
+Cena: 3715 Kč
+
+Podrobnosti: Unikátní cuvée připravené ke stodvacetiletému výročí založení firmy. Jedná se o kupáž 12 ročníků ze starých archivů, počínaje rokem 1943 a dále pak 1947, 1959, 1988, 1995, 1996, 1997, 1998, 2000, 2001, 2002 a 2011. Víno má barvu bílého zlata, půvabné aroma citrusů, pomerančové kůry, bylinek a biskvitů a je nádherně strukturované, jemné a dlouhé ve své dochuti. Mistrovské víno!
+
+Další informace:
+Barva - bílá
+Kategorie vína - šumivé
+Cukernatost - suché
+Obsah Alkoholu (%) - 12
+
+3.
+Název: Castellroig Brut Nature Reserva 2017
+Vinařství: Sabe i Coca
+Původ: Španělsko
+Odrůda: Xarel-lo, Parellada, Chardonnay
+Objem: 0,75
+Cena: 345 Kč
+
+Podrobnosti: Víno zelenkavě žluté barvy, aroma citrusů, zelených jablíček, jasmínu a bylinek. V chuti je jiskrné, svěží, s filigránsky jemnou strukturou a dlouhým minerálním dozvukem. Po druhotné fermentaci zrálo na kvasinkách více než 18 měsíců.
+
+Barva vína - bílá
+Kategorie vína - šumivá
+Cukernatost - suché
+Obsah alkoholu (%) - 12,5
+
+Vína Červená
+
+Název: Hermandad Malbec 2015
 Vinařství: Los Haroldos
 Původ: Argentina
 Odrůda: 100% Malbec
+Objem: 0,75 l
 Cena: 550 Kč
 
 Podrobnosti: Prémiový Malbec s dlouhým potenciálem zrání, s tmavě fialovou barvou, aroma zralého až zavařeného ovoce, ostružin, černých třešní, sušených švestek, s květinovými tóny fialek a tóny zrání na dřevě, jako je vanilka a pražené kakaové boby. Má plné tělo, sametovou strukturu zralých taninů a velmi dlouhý závěr. Zrálo 15 měsíců v nových sudech z francouzského dubu.
 
 
 Další informace:
-Barva vína - Červené
-Kategorie vína - Tiché
-Cukernatost - Suché
+Barva vína - červené
+Kategorie vína - tiché
+Cukernatost - suché
 Obsah alkoholu (%) - 13,5
 
+2.
+Název: Merlot Vin de France 2018
+Vinařství: Jean Moreau & Fils
+Původ: Francie
+Odrůda: 100% Merlot
+Objem: 0,75 l
+Cena: 175 Kč
+
+Podrobnosti: Víno vyrobené z oblíbené odrůdy Merlot ve francouzské oblasti Languedoc. Má temně fialovou barvu, velmi výraznou vůni malin, ostružin a lesního podrostu, v chuti tóny jahodové marmelády a lékořice, intenzivní, zralé taniny a zakulacený závěr.
+
+Další informace:
+Barva vína - červené
+Kategorie vína - tiché
+Cukernatost - suché
+Obsah alkoholu (%) - 13
+
+3.
+Název: Fine tawny
+Vinařství: Cálem
+Původ: Portugalsko
+Odrůdy - ne
+Objem: 0,75 l
+Cena: 310 Kč
+
+Podrobnosti: Odborně scelené mladé víno s jemnou ovocně dřevitou chutí. Barva je červenohnědá a vůně s jemným buketem po oříšcích a dřevu.
+
+Další informace:
+Barva vína: červené
+Kategorie vína: dezertní
+Cukernatost: sladké
+Obsah alkoholu v (%): 20
 
 
+Vína Růžová
+
+1.
+Název: Frankovka rosé 2019
+Vinařství: Sedlák
+Původ: Česká Republika
+Odrůda: Frankovka
+Objem: 0,75 l
+Cena: 130 Kč
+
+Podrobnosti: Víno lososově růžové barvy, s vůní čerstvých jahod a třešní a jemnými tóny jogurtu. Lehká a svěží chuť s jemně jahodovou dochutí.
+
+Další informace:
+Barva vína - růžové
+Kategorie vína - tiché
+Cukernatost - polosuché
+Obsah alkoholu v (%) - 12
+
+2.
+Název: Chocalan Rosé Reserva 2017
+Vinařství: Chocalan
+Původ: Chile
+Odrůda: Petit Verdot, Syrah
+Objem: 0,75 l
+Cena: 270 Kč
+
+Podrobnosti: Intenzivní rosé s aroma vodního melounu, liči a jahod s tóny růžových lístků a malin, je svěží a jemné, s vyváženou kyselinkou a dlouhým závěrem.
+
+Další informace:
+Barva vína - růžové
+Kategorie vína - tiché
+Cukernatost - suché
+Obsah alkoholu v (%) - 13,5
+
+3.
+Název: Rosé 2019
+Vinařství: Direder
+Odrůda: Cabernet Sauvignon, Zweigelt
+Objem: 0,75 l
+Cena: 235 Kč
+
+Podrobnosti: Svěží, lehké růžové, skvělé letní víno s tóny červeného ovoce a příjemnou kyselinkou.
+
+Další informace:
+Barva vína - růžové
+Kategorie vína - tiché
+Cukernatost - suché
+Obsah alkoholu v (%) - 12,5
 
 
 Doplňky
@@ -103,12 +253,14 @@ Delikatesy
 
 Název: Finniss River Olivový olej 2018
 Vinařství: Salomon Estate
+Objem: 0,75 l
 Cena: 490 Kč
 
 Podrobnosti: Australský olivový olej Extra Virgin z vinařství Salomon Estate je prvotřídní olej s aroma čerstvě posečené trávy, s jemnými tóny citrusů a oříšků v chuti a lehce peprným dozvukem. Německý gurmet časopis Feinschmecker jej v roce 2009 zařadil mezi 6 nejlepších olivových olejů na světě!!!
 
 Název: Marmeláda z Monastrellu
 Vinařství: Hacienda de Carche
+Objem: 200g
 Cena: 125 Kč
 
 Podrobnosti: Skvělá marmeláda vyráběná z červeného vína odrůdy Monastrell ve vinařství Hacienda del Carche. Při její výrobě je víno zahřáto na vysokou teplotu, tudíž alkohol vyprchá a nemusíte se bát, že by byl opojný :-). Doporučujeme v kombinaci s foie gras, paštikami, sýry, atd.
@@ -119,11 +271,7 @@ Odrůdy - Monastrell
 
 Název: Vinagre de Jerez Reserva de Familia
 Vinařství: Alvaro Domecq
-
-Podrobnosti: Excelentní vinný ocet Alvaro Domecq Reserva de Familia zrál nejméně 6 let na sudu. Má kaštanovou barvu. Aroma a chuť jsou velmi čisté a koncentrované, s tóny dřeva. Je skvělý pro přípravu marinád, dochucení salátů, polévek a omáček.
-
-Název: Vinagre de Jerez Reserva de Familia
-Vinařství: Alvaro Domecq
+Objem: 0,75 l
 Cena: 250 Kč
 
 Podrobnosti: Excelentní vinný ocet Alvaro Domecq Reserva de Familia zrál nejméně 6 let na sudu. Má kaštanovou barvu. Aroma a chuť jsou velmi čisté a koncentrované, s tóny dřeva. Je skvělý pro přípravu marinád, dochucení salátů, polévek a omáček.

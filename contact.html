@@ -3,7 +3,13 @@
 
 <head>
     <link rel="stylesheet" href="styles/style.css">
-    <script type="text/javascript" src="js/navbar.js"></script>
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <script src="js/navbar.js"></script>
+    <script src="js/map.js"></script>
+    <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h9eGZQfDCcO1EBkJzJsu4G0h8GqOZ94&callback=initMap&libraries=&v=weekly"
+            defer
+    ></script>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,13 +20,27 @@
 
 <header>
     <nav class="topnav" id="myTopnav">
-        <a class="logo" href="wines.html"><img src="logo_transparent1.png" alt="logo"></a>
-        <a href="wines.html">Nabídka vín</a>
-        <a href="accessories.html">Doplňky a delikatesy</a>
-        <a class="right" href="basket.html">Košík</a>
+        <a class="logo" href="wines.html"><img src="logo.svg" alt="logo"></a>
+        <div class="dropdown">
+            <a href="wines.html" class="dropbtn">Nabídka vín</a>
+            <div class="dropdown-content">
+                <a href="wines/wines_white.html">Bílá vína</a>
+                <a href="wines/wines_red.html">Červená vína</a>
+                <a href="wines/wines_pink.html">Růžová vína</a>
+                <a href="wines/wines_sparkling.html">Šumivá vína</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="accessories.html" class="dropbtn">Doplňky a delikatesy</a>
+            <div class="dropdown-content">
+                <a href="accessories/wine_accessories.html">Doplňky</a>
+                <a href="accessories/delikatessen.html">Delikatesy</a>
+            </div>
+        </div>
+        <a class="right" href="basket.html">🛒Košík</a>
         <a class="right" href="index.html">O nás</a>
-        <a class="active right" href="contact.html">Kontakt</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <a class="right active" href="contact.html">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="navColapse()">&#9776;</a>
     </nav>
 </header>
 
@@ -45,6 +65,7 @@
             <p>Some text..</p>
             <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             <br>
+            <div id="map"></div>
             <h2>TITLE HEADING</h2>
             <h5>Title description, Sep 2, 2017</h5>
             <div class="fakeimg" style="height:200px;">Image</div>

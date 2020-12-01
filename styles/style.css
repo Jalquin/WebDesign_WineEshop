@@ -155,7 +155,7 @@ nav a.right {float: right;}
 }
 
 #map {
-    height: 400px;
+    height: 75%;
     width: 100%;
 }
 
@@ -239,6 +239,14 @@ h5 {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+}
+
+.contact-logo{
+    width: 100%;
+}
+
+.contact-logo img{
+    width: 100%;
 }
 
 footer {

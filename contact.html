@@ -2,16 +2,16 @@
 <html lang="cs">
 
 <head>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" type="image/png" href="logo.png"/>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="logo.png" rel="icon" type="image/png"/>
     <script src="js/navbar.js"></script>
     <script src="js/map.js"></script>
     <script
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h9eGZQfDCcO1EBkJzJsu4G0h8GqOZ94&callback=initMap&libraries=&v=weekly"
             defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h9eGZQfDCcO1EBkJzJsu4G0h8GqOZ94&callback=initMap&libraries=&v=weekly"
     ></script>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Wine Market - Kontakt</title>
 </head>
 
@@ -19,9 +19,9 @@
 
 <header>
     <nav class="topnav" id="myTopnav">
-        <a class="logo" href="wines.html"><img src="logo.svg" alt="logo"></a>
+        <a class="logo" href="wines.html"><img alt="logo" src="logo.svg"></a>
         <div class="dropdown">
-            <a href="wines.html" class="dropbtn">Nabídka vín</a>
+            <a class="dropbtn" href="wines.html">Nabídka vín</a>
             <div class="dropdown-content">
                 <a href="wines/wines_white.html">Bílá vína</a>
                 <a href="wines/wines_red.html">Červená vína</a>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="dropdown">
-            <a href="accessories.html" class="dropbtn">Doplňky a delikatesy</a>
+            <a class="dropbtn" href="accessories.html">Doplňky a delikatesy</a>
             <div class="dropdown-content">
                 <a href="accessories/wine_accessories.html">Doplňky</a>
                 <a href="accessories/delikatessen.html">Delikatesy</a>
@@ -39,7 +39,7 @@
         <a class="right" href="basket.html">🛒Košík</a>
         <a class="right" href="about_us.html">O nás</a>
         <a class="right active" href="contact.html">Kontakt</a>
-        <a href="javascript:void(0);" class="icon" onclick="navColapse()">&#9776;</a>
+        <a class="icon" href="javascript:void(0);" onclick="navColapse()">&#9776;</a>
     </nav>
 </header>
 
@@ -49,45 +49,70 @@
         <div class="contact-side">
             <h2>Wine market</h2>
             <p>..váš dodavatel kvalitního vína</p>
-            <div class="contact-logo"><img src="logo.png" alt="Firemní logo wine MARKET"></div>
+            <div class="contact-logo"><img alt="Firemní logo wine MARKET" src="logo.png"></div>
             <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
             <h3>Adresa</h3>
             <p>Lorem ipsum dolor sit ame.</p>
-            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div>
+            <br>
             <div class="fakeimg" style="height:60px;">Image</div>
         </div>
 
         <div class="contact-main">
 
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <br>
             <h3>Mapa</h3>
             <div id="map"></div>
+
             <h3>Kontaktujte nás!</h3>
             <div class="container-contact">
                 <form>
-                    <label for="fname">Jméno:</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Vaše jméno..">
-
-                    <label for="lname">Příjmení:</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Vaše příjmení..">
-
-                    <label for="country">Země:</label>
-                    <select id="country" name="country">
-                        <option value="czechia">Česká republika</option>
-                        <option value="slovakia">Slovensko</option>
-                    </select>
-
-                    <label for="email">E-mail:</label>
-                    <input type="text" id="email" name="email" placeholder="Váš email..">
-
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-                    <input type="submit" value="Odeslat">
+                    <div class="row-contact">
+                        <div class="col-25">
+                            <label for="fname">Jméno:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="fname" name="firstname" placeholder="Vaše jméno.." type="text">
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <div class="col-25">
+                            <label for="lname">Příjmení:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="lname" name="lastname" placeholder="Vaše příjmení.." type="text">
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <div class="col-25">
+                            <label for="country">Země:</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="czechia">Česká republika</option>
+                                <option value="slovakia">Slovensko</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <div class="col-25">
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="email" name="email" placeholder="Váš email.." type="text">
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <div class="col-25">
+                            <label for="subject">Zpráva:</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Napiště něco.."
+                                      style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row-contact">
+                        <input type="submit" value="Submit">
+                    </div>
                 </form>
             </div>
         </div>

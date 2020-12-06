@@ -2,12 +2,12 @@
 <html lang="cs">
 
 <head>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="icon" type="image/png" href="../logo.png"/>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link href="../logo.png" rel="icon" type="image/png"/>
     <script src="../js/navbar.js"></script>
     <script src="../js/shop.js"></script>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Wine Market - Červené vína</title>
 </head>
 
@@ -15,9 +15,9 @@
 
 <header>
     <nav class="topnav" id="myTopnav">
-        <a class="logo" href="../wines.html"><img src="../logo.svg" alt="logo"></a>
+        <a class="logo" href="../wines.html"><img alt="logo" src="../logo.svg"></a>
         <div class="dropdown">
-            <a href="../wines.html" class="dropbtn">Nabídka vín</a>
+            <a class="dropbtn" href="../wines.html">Nabídka vín</a>
             <div class="dropdown-content">
                 <a href="wines_white.html">Bílá vína</a>
                 <a class="active" href="wines_red.html">Červená vína</a>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="dropdown">
-            <a href="../accessories.html" class="dropbtn">Doplňky a delikatesy</a>
+            <a class="dropbtn" href="../accessories.html">Doplňky a delikatesy</a>
             <div class="dropdown-content">
                 <a href="../accessories/wine_accessories.html">Doplňky</a>
                 <a href="../accessories/delikatessen.html">Delikatesy</a>
@@ -35,7 +35,7 @@
         <a class="right" href="../basket.html">🛒Košík</a>
         <a class="right" href="../about_us.html">O nás</a>
         <a class="right" href="../contact.html">Kontakt</a>
-        <a href="javascript:void(0);" class="icon" onclick="navColapse()">&#9776;</a>
+        <a class="icon" href="javascript:void(0);" onclick="navColapse()">&#9776;</a>
     </nav>
 </header>
 
@@ -46,13 +46,14 @@
         <div class="shop-side">
 
             <h2>Třídění produktů</h2>
-            <a href="javascript:void(0);" class="icon-sort" onclick="sortColapse()">&#9661;</a>
+            <a class="icon-sort" href="javascript:void(0);" onclick="sortColapse()">&#9661;</a>
 
             <div class="colapse" id="Colapse">
 
                 <h3>Cena:</h3>
                 <div class="slidecontainer">
-                    <label for="myRange">Výběr ceny:</label><input type="range" min="175" max="550" value="175" class="slider" id="myRange">
+                    <label for="myRange">Výběr ceny:</label><input class="slider" id="myRange" max="550" min="175"
+                                                                   type="range" value="175">
                     <p>Cena: <span id="demo"></span> Kč</p>
                 </div>
 
@@ -145,24 +146,24 @@
             <div class="item-grid">
 
                 <div class="gallery">
-                    <a target="_blank" href="../sortiment_img/red/los_haroldos_hermandad_2015.jpg">
-                        <img src="../sortiment_img/red/los_haroldos_hermandad_2015.jpg" alt="Hermandad Malbec 2015"
-                             width="800" height="600">
+                    <a href="../sortiment_img/red/los_haroldos_hermandad_2015.jpg" target="_blank">
+                        <img alt="Hermandad Malbec 2015" height="600"
+                             src="../sortiment_img/red/los_haroldos_hermandad_2015.jpg" width="800">
                     </a>
                     <div class="desc">Hermandad Malbec 2015</div>
                     <div class="price">550 Kč</div>
                 </div>
                 <div class="gallery">
-                    <a target="_blank" href="../sortiment_img/red/vin_de_france_merlot_2018.jpg">
-                        <img src="../sortiment_img/red/vin_de_france_merlot_2018.jpg" alt="Merlot Vin de France 2018"
-                             width="800" height="600">
+                    <a href="../sortiment_img/red/vin_de_france_merlot_2018.jpg" target="_blank">
+                        <img alt="Merlot Vin de France 2018" height="600"
+                             src="../sortiment_img/red/vin_de_france_merlot_2018.jpg" width="800">
                     </a>
                     <div class="desc">Merlot Vin de France 2018</div>
                     <div class="price">175 Kč</div>
                 </div>
                 <div class="gallery">
-                    <a target="_blank" href="../sortiment_img/red/calem_fineruby.jpg">
-                        <img src="../sortiment_img/red/calem_fineruby.jpg" alt="Fine tawny" width="800" height="600">
+                    <a href="../sortiment_img/red/calem_fineruby.jpg" target="_blank">
+                        <img alt="Fine tawny" height="600" src="../sortiment_img/red/calem_fineruby.jpg" width="800">
                     </a>
                     <div class="desc">Fine tawny</div>
                     <div class="price">310 Kč</div>

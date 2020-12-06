@@ -352,7 +352,7 @@ ul.breadcrumb li {
     font-size: 18px;
 }
 
-ul.breadcrumb li+li:before {
+ul.breadcrumb li + li:before {
     padding: 8px;
     color: black;
     content: "/\00a0";
@@ -433,10 +433,12 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
 }
 
 input[type=submit] {
@@ -446,6 +448,8 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    float: right;
+    width: 100%;
 }
 
 input[type=submit]:hover {
@@ -458,18 +462,23 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.shop-side h2{
+.col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+}
+
+.shop-side h2 {
     float: left;
     padding: 0.5rem;
     font-size: 1.5rem;
     margin: 0;
 }
 
-.colapse{
+.colapse {
     display: none;
 }
 
-.colapse-open{
+.colapse-open {
     display: block;
     -webkit-animation: slide-down .3s ease-out;
     -moz-animation: slide-down .3s ease-out;
@@ -487,6 +496,12 @@ input[type=submit]:hover {
     background-color: #ffffff;
 }
 
+.row-contact:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 @media only screen and (min-width: 500px) {
     .item-grid {
@@ -497,23 +512,39 @@ input[type=submit]:hover {
 @media screen and (min-width: 700px) {
 
     #map {
-        height: 590px;
+        height: 760px;
     }
 
     .row {
         flex-direction: row;
     }
 
-    .colapse{
+    .colapse {
         display: block;
     }
 
-    .shop-side h2{
+    .shop-side h2 {
         float: none;
     }
 
     .icon-sort {
         display: none;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    input[type=submit] {
+        width: inherit;
     }
 }
 

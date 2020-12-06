@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const output = document.getElementById("demo");
     output.innerHTML = slider.value;
 
-    slider.oninput = function() {
+    slider.oninput = function () {
         output.innerHTML = this.value;
     }
 }, false);

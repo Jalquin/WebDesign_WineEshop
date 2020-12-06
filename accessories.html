@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/png" href="logo.png"/>
     <script src="js/navbar.js"></script>
+    <script src="js/shop.js"></script>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wine Market - Doplňky a delikatesy</title>
@@ -32,7 +33,7 @@
             </div>
         </div>
         <a class="right" href="basket.html">🛒Košík</a>
-        <a class="right" href="index.html">O nás</a>
+        <a class="right" href="about_us.html">O nás</a>
         <a class="right" href="contact.html">Kontakt</a>
         <a href="javascript:void(0);" class="icon" onclick="navColapse()">&#9776;</a>
     </nav>
@@ -43,20 +44,53 @@
     <div class="row">
 
         <div class="shop-side">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <div class="fakeimg" style="height:60px;">Image</div>
-            <br>
-            <div class="fakeimg" style="height:60px;">Image</div>
-            <br>
-            <div class="fakeimg" style="height:60px;">Image</div>
+
+            <h2>Třídění produktů</h2>
+            <a href="javascript:void(0);" class="icon-sort" onclick="sortColapse()">&#9661;</a>
+
+            <div class="colapse" id="Colapse">
+
+                <h3>Cena:</h3>
+                <div class="slidecontainer">
+                    <label for="myRange">Výběr ceny:</label><input type="range" min="125" max="10185" value="125" class="slider" id="myRange">
+                    <p>Cena: <span id="demo"></span> Kč</p>
+                </div>
+
+                <h3>Typ produktu:</h3>
+                <label class="container">Sklenice
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Chladící box
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Dárková sada
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Marmeláda
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Olej
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Ostatní
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+            </div>
         </div>
 
         <div class="shop-main">
+
+            <ul class="breadcrumb">
+                <li><a href="index.html">Domů</a></li>
+                <li>Doplňky a delikatesy</li>
+            </ul>
 
             <h2>Delikatesy nejen k vínu</h2>
             <h3>Delikatesy nejen k vínu</h3>

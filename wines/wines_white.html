@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="icon" type="image/png" href="../logo.png"/>
     <script src="../js/navbar.js"></script>
+    <script src="../js/shop.js"></script>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wine Market - Bílé vína</title>
@@ -32,7 +33,7 @@
             </div>
         </div>
         <a class="right" href="../basket.html">🛒Košík</a>
-        <a class="right" href="../index.html">O nás</a>
+        <a class="right" href="../about_us.html">O nás</a>
         <a class="right" href="../contact.html">Kontakt</a>
         <a href="javascript:void(0);" class="icon" onclick="navColapse()">&#9776;</a>
     </nav>
@@ -43,20 +44,97 @@
     <div class="row">
 
         <div class="shop-side">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <div class="fakeimg" style="height:60px;">Image</div>
-            <br>
-            <div class="fakeimg" style="height:60px;">Image</div>
-            <br>
-            <div class="fakeimg" style="height:60px;">Image</div>
+
+            <h2>Třídění produktů</h2>
+            <a href="javascript:void(0);" class="icon-sort" onclick="sortColapse()">&#9661;</a>
+
+            <div class="colapse" id="Colapse">
+
+                <h3>Cena:</h3>
+                <div class="slidecontainer">
+                    <label for="myRange">Výběr ceny:</label><input type="range" min="180" max="370" value="180" class="slider" id="myRange">
+                    <p>Cena: <span id="demo"></span> Kč</p>
+                </div>
+
+                <h3>Barva vína:</h3>
+                <label class="container">Bílé
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Červené
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Růžové
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <h3>Objem:</h3>
+                <label class="container">1,5 l
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">0,75 l
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <h3>Země původu:</h3>
+                <label class="container">Francie
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Itálie
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Česká republika
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Španělsko
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <h3>Cukernatost:</h3>
+                <label class="container">Suché
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Polosuché
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Sladké
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <h3>Kategorie vína:</h3>
+                <label class="container">Tiché
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Šumivé
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Dezertní
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
         </div>
 
         <div class="shop-main">
+
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Domů</a></li>
+                <li><a href="../wines.html">Nabídka vín</a></li>
+                <li>Bílá vína</li>
+            </ul>
 
             <h2>VÝBĚR NEJLEPŠÍCH BÍLÝCH VÍN</h2>
             <h3>Základní surovinou pro výrobu bílého vína jsou hrozny tzv. bílých moštových odrůd révy vinné. Při jeho

@@ -6,6 +6,7 @@
     <link href="logo.png" rel="icon" type="image/png"/>
     <script src="js/navbar.js"></script>
     <script src="js/map.js"></script>
+    <script src="js/modal.js"></script>
     <script
             defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-h9eGZQfDCcO1EBkJzJsu4G0h8GqOZ94&callback=initMap&libraries=&v=weekly"
@@ -36,9 +37,15 @@
                 <a href="accessories/delikatessen.html">Delikatesy</a>
             </div>
         </div>
-        <a class="right" href="basket.html">🛒Košík</a>
         <a class="right" href="about_us.html">O nás</a>
         <a class="right active" href="contact.html">Kontakt</a>
+        <div class="dropdown right">
+            <a class="dropbtn" href="basket.html">🛒Košík</a>
+            <div class="dropdown-content">
+                <a>Počet položek: 6</a>
+                <a>Celková cena: 2500,- Kč</a>
+            </div>
+        </div>
         <a class="icon" href="javascript:void(0);" onclick="navColapse()">&#9776;</a>
     </nav>
 </header>
@@ -47,33 +54,35 @@
     <h1>Kontakt</h1>
     <div class="row">
         <div class="contact-side">
+
             <h2>Wine market</h2>
             <p>..váš dodavatel kvalitního vína</p>
             <div class="contact-logo"><img alt="Firemní logo wine MARKET" src="logo.png"></div>
-            <h3>Provozní doba e-shopu:</h3>
-            <p>Po – Pá 8:30 – 17:00</p>
-
-            <p>Poznámka: Všechny objednávky přijaté mimo pracovní dobu, budou vyřízeny až následující pracovní den.</p>
 
             <h3>Dotazy ohledně e-shopu, dostupnosti zboží, objednávkám apod. směřujte na:</h3>
 
-            <p>Tel.: +420 555 432 432 – volat můžete během pracovní doby</p>
-            <p>E-mail: info@winemarket.cz</p>
+            <address>
+                <a href="tel:+420555432432">+420 555 432 432</a><br>
+                <a href="mailto:info@winemarket.cz">info@winemarket.cz</a>
+            </address>
 
             <h3>Provozní doba prodejny:</h3>
             <p>Po – Pá 8:30 – 17:00</p>
 
-            <h3>Adresa kamenné prodejny:</h3>
-            <ul>
-                <li>Václavské náměstí 785</li>
-                <li>110 00 Praha 1</li>
-            </ul>
-            <h3>Fakturační údaje:</h3>
-            <ul>
-                <li>WineMarket s.r.o</li>
-                <li>Václavské náměstí 785</li>
-                <li>110 00 Praha 1</li>
-            </ul>
+            <address>
+                <h3>Adresa kamenné prodejny:</h3>
+                <ul>
+                    <li>Václavské náměstí 785</li>
+                    <li>110 00 Praha 1</li>
+                </ul>
+                <h3>Fakturační údaje:</h3>
+                <ul>
+                    <li>WineMarket s.r.o</li>
+                    <li>Václavské náměstí 785</li>
+                    <li>110 00 Praha 1</li>
+                </ul>
+            </address>
+
             <h3>Číslo účtu:</h3>
             <p>5555555555/0100</p>
             <h3>IČ: 00000000</h3>
@@ -133,8 +142,21 @@
                         </div>
                     </div>
                     <div class="row-contact">
-                        <input type="submit" value="Odeslat">
+                        <input id="myBtn" type="button" value="Odeslat">
                     </div>
+
+                    <div class="modal" id="myModal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Zpráva odeslána</h2>
+                            </div>
+                            <div class="modal-footer">
+                                <h3>Děkujeme za zpětnou vazbu!</h3>
+                            </div>
+                        </div>
+                    </div>
+
                 </form>
             </div>
         </div>
@@ -142,7 +164,7 @@
 </main>
 
 <footer>
-    <a>© 2020 Kristýna Svobodová, Jakub Červený a Jan Miškovský. Všechna práva vyhrazena.</a>
+    <a>© 2020 Kristýna Svobodová, Jakub Červený a Jan Miškovský. Studentský projekt ČZU.</a>
 </footer>
 
 </body>

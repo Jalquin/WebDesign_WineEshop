@@ -6,6 +6,7 @@
     <link href="logo.png" rel="icon" type="image/png"/>
     <script src="js/navbar.js"></script>
     <script src="js/shop.js"></script>
+    <script src="js/modal.js"></script>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Wine Market - Nabídka vín</title>
@@ -32,15 +33,40 @@
                 <a href="accessories/delikatessen.html">Delikatesy</a>
             </div>
         </div>
-        <a class="right" href="basket.html">🛒Košík</a>
         <a class="right" href="about_us.html">O nás</a>
         <a class="right" href="contact.html">Kontakt</a>
+        <div class="dropdown right">
+            <a class="dropbtn" href="basket.html">🛒Košík</a>
+            <div class="dropdown-content">
+                <a>Počet položek: 6</a>
+                <a>Celková cena: 2500,- Kč</a>
+            </div>
+        </div>
         <a class="icon" href="javascript:void(0);" onclick="navColapse()">&#9776;</a>
     </nav>
 </header>
 
 <main>
     <h1>Nabídka vín</h1>
+<!-- //modal preview//
+    <button id="myBtn">Open Modal</button>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+    </div>
+-->
     <div class="row">
 
         <div class="shop-side">
@@ -249,7 +275,7 @@
 </main>
 
 <footer>
-    <a>© 2020 Kristýna Svobodová, Jakub Červený a Jan Miškovský. Všechna práva vyhrazena.</a>
+    <a>© 2020 Kristýna Svobodová, Jakub Červený a Jan Miškovský. Studentský projekt ČZU.</a>
 </footer>
 
 </body>

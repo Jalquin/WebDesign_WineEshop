@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 }, false);
 
-function sortColapse() {
+function sortCollapse() {
     const x = document.getElementById("Colapse");
     if (x.className === "colapse") {
         x.className += " colapse-open";

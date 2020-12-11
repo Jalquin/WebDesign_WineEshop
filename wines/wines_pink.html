@@ -8,14 +8,15 @@
     <script src="../js/shop.js"></script>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Wine Market - Růžové vína</title>
+    <meta content="noindex,follow" name="robots"/>
+    <title>Wine Market - Růžová vína</title>
 </head>
 
 <body>
 
 <header>
     <nav class="topnav" id="myTopnav">
-        <a class="logo" href="../index.html"><img alt="logo" src="../logo.svg"></a>
+        <a class="logo" href="../index.html"><img alt="Firemní logo wine MARKET" src="../logo.svg"></a>
         <div class="dropdown">
             <a class="dropbtn" href="../wines.html">Nabídka vín</a>
             <div class="dropdown-content">
@@ -52,12 +53,21 @@
         <div class="shop-side">
 
             <h2>Třídění produktů</h2>
-            <a class="icon-sort" href="javascript:void(0);" onclick="sortColapse()">&#9661;</a>
+            <a class="icon-sort" href="javascript:void(0);" onclick="sortCollapse()">&#9661;</a>
 
-            <div class="colapse" id="Colapse">
+            <div class="collapse" id="Colapse">
 
-                <h3>Cena:</h3>
-                <div class="slidecontainer">
+                <h3>Seřadit podle:</h3>
+                <label>
+                    <select>
+                        <option>Nejlevnější</option>
+                        <option>Nejdražší</option>
+                        <option>Nejprodávanější</option>
+                    </select>
+                </label>
+
+                <h3>Maximální cena:</h3>
+                <div class="slide-container">
                     <label for="myRange">Výběr ceny:</label><input class="slider" id="myRange" max="270" min="130"
                                                                    type="range" value="130">
                     <p>Cena: <span id="demo"></span> Kč</p>
@@ -157,6 +167,11 @@
                     </a>
                     <div class="desc">Frankovka rosé 2019</div>
                     <div class="price">130 Kč</div>
+                    <div class="product-buttons">
+                        <form action="../wines/pink/chocalan.html" method="get">
+                            <button class="button-index" type="submit"><span>Přejít na výběr vín </span></button>
+                        </form>
+                    </div>
                 </div>
                 <div class="gallery">
                     <a href="../sortiment_img/pink/chocalan_rose_reserva_2017.png" target="_blank">

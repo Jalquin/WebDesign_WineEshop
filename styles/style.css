@@ -516,7 +516,7 @@ input[type=button]:hover {
     display: none;
 }
 
-.colapse-open {
+.collapse-open {
     display: block;
     -webkit-animation: slide-down .3s ease-out;
     -moz-animation: slide-down .3s ease-out;

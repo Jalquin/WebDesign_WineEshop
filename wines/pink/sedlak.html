@@ -1,10 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="cs">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="../../styles/style.css" rel="stylesheet">
+    <link href="../../logo.png" rel="icon" type="image/png"/>
+    <script src="../../js/navbar.js"></script>
+    <script src="../../js/modal.js"></script>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="noindex,follow" name="robots"/>
+    <title>Wine Market - Rosé 2019</title>
 </head>
+
 <body>
+
+<header>
+    <nav class="topnav" id="myTopnav">
+        <a class="logo active" href="../../index.html"><img alt="Firemní logo wine MARKET" src="../../logo.svg"></a>
+        <div class="dropdown">
+            <a class="dropbtn" href="../../wines.html">Nabídka vín</a>
+            <div class="dropdown-content">
+                <a href="../../wines/wines_white.html">Bílá vína</a>
+                <a href="../../wines/wines_red.html">Červená vína</a>
+                <a href="../../wines/wines_pink.html">Růžová vína</a>
+                <a href="../../wines/wines_sparkling.html">Šumivá vína</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" href="../../accessories.html">Doplňky a delikatesy</a>
+            <div class="dropdown-content">
+                <a href="../../accessories/wine_accessories.html">Doplňky</a>
+                <a href="../../accessories/delikatessen.html">Delikatesy</a>
+            </div>
+        </div>
+        <a class="right" href="../../about_us.html">O nás</a>
+        <a class="right" href="../../contact.html">Kontakt</a>
+        <div class="dropdown right">
+            <a class="dropbtn" href="../../basket.html">🛒Košík</a>
+            <div class="dropdown-content">
+                <a>Počet položek: 6</a>
+                <a>Celková cena: 2500,- Kč</a>
+            </div>
+        </div>
+        <a class="icon" href="javascript:void(0);" onclick="navCollapse()">&#9776;</a>
+    </nav>
+</header>
+
+<main>
+    <div class="breadcrumb-padding">
+        <ul class="breadcrumb">
+            <li><a href="../../index.html">Domů</a></li>
+            <li><a href="../../wines.html">Nabídka vín</a></li>
+            <li><a href="../../wines/wines_pink.html">Růžová vína</a></li>
+            <li>Rosé 2019</li>
+        </ul>
+    </div>
+    <div class="product-row">
+
+        <div class="left-column">
+            <img alt="Lahev vína Chocalan Rosé Reserva 2017"
+                 src="../../sortiment_img/pink/direder_rose_2019.jpg">
+        </div>
+
+        <div class="right-column">
+
+            <div class="product-description">
+                <span>Růžové víno</span>
+                <h1>Rosé 2019</h1>
+                <h2>Informace</h2>
+                <p>Vinařství: Direder</p>
+                <p>Odrůda: Cabernet Sauvignon, Zweigelt</p>
+                <p>Objem: 0,75 l</p>
+                <p>Svěží, lehké růžové, skvělé letní víno s tóny červeného ovoce a příjemnou kyselinkou.</p>
+                <h3>Další informace:</h3>
+                <p>Barva vína - růžové</p>
+                <p>Kategorie vína - tiché</p>
+                <p>Cukernatost - suché</p>
+                <p>Obsah alkoholu v (%) - 12,5</p>
+            </div>
+
+            <!-- Product Pricing -->
+            <div class="product-price">
+                <span>235,- Kč</span>
+
+                <div class="modal" id="myModal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Zboží přidáno do košíku!</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <input class="cart-btn" id="myBtn" type="button" value="Přidat do košíku 🛒">
+
+            </div>
+
+            <div class="rating">
+                <span>Hodnocení uživatelů</span>
+                <br>
+                <span class="fa">★</span>
+                <span class="fa">★</span>
+                <span class="fa">★</span>
+                <span class="fa">★</span>
+                <span class="fa">☆</span>
+                <hr>
+                <div class="rating-row">
+                    <div class="rating-side">
+                        <div>5</div>
+                    </div>
+                    <div class="rating-middle">
+                        <div class="bar-container">
+                            <div class="bar-5"></div>
+                        </div>
+                    </div>
+                    <div class="rating-side rating-right">
+                        <div>150</div>
+                    </div>
+                    <div class="rating-side">
+                        <div>4</div>
+                    </div>
+                    <div class="rating-middle">
+                        <div class="bar-container">
+                            <div class="bar-4"></div>
+                        </div>
+                    </div>
+                    <div class="rating-side rating-right">
+                        <div>63</div>
+                    </div>
+                    <div class="rating-side">
+                        <div>3</div>
+                    </div>
+                    <div class="rating-middle">
+                        <div class="bar-container">
+                            <div class="bar-3"></div>
+                        </div>
+                    </div>
+                    <div class="rating-side rating-right">
+                        <div>15</div>
+                    </div>
+                    <div class="rating-side">
+                        <div>2</div>
+                    </div>
+                    <div class="rating-middle">
+                        <div class="bar-container">
+                            <div class="bar-2"></div>
+                        </div>
+                    </div>
+                    <div class="rating-side rating-right">
+                        <div>6</div>
+                    </div>
+                    <div class="rating-side">
+                        <div>1</div>
+                    </div>
+                    <div class="rating-middle">
+                        <div class="bar-container">
+                            <div class="bar-1"></div>
+                        </div>
+                    </div>
+                    <div class="rating-side rating-right">
+                        <div>20</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <a>© 2020 Kristýna Svobodová, Jakub Červený a Jan Miškovský. Studentský projekt ČZU.</a>
+</footer>
 
 </body>
 </html>

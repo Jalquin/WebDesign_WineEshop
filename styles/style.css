@@ -856,6 +856,7 @@ hr {
 .img_modalImage {
     margin: auto;
     display: block;
+    width: 100%;
 }
 
 .modal-img-close {
@@ -955,7 +956,7 @@ hr {
     }
 
     .img_modalImage {
-        max-width: 700px;
+        max-width: 1000px;
     }
 }
 

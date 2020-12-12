@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
 }, false);
 
 function sortCollapse() {
-    const x = document.getElementById("Colapse");
-    if (x.className === "colapse") {
-        x.className += " colapse-open";
+    const x = document.getElementById("Collapse");
+    if (x.className === "collapse") {
+        x.className += " collapse-open";
     } else {
-        x.className = "colapse";
+        x.className = "collapse";
     }
 }

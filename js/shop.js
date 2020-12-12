@@ -8,17 +8,40 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    const modalEle = document.querySelector(".img-modal");
-    const modalImage = document.querySelector(".img-modalImage");
+    const img_modal = document.querySelector(".img_modal");
+    const modalImage = document.querySelector(".img_modalImage");
     Array.from(document.querySelectorAll(".ImgThumbnail")).forEach(item => {
         item.addEventListener("click", event => {
-            modalEle.style.display = "block";
+            img_modal.style.display = "block";
             modalImage.src = event.target.src;
         });
     });
     document.querySelector(".modal-img-close").addEventListener("click", () => {
-        modalEle.style.display = "none";
+        img_modal.style.display = "none";
     });
+
+    window.onclick = function (event) {
+        if (event.target === img_modal) {
+            img_modal.style.display = "none";
+        }
+    }
+
+
+    const modal = document.querySelector(".modal");
+    Array.from(document.querySelectorAll(".cartModal")).forEach(item => {
+        item.addEventListener("click", () => {
+            modal.style.display = "block";
+        });
+    });
+    document.querySelector(".close").addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
 }, false);
 
 function sortCollapse() {

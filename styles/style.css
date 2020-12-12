@@ -572,28 +572,6 @@ input[type=button]:hover {
     animation-duration: 0.4s
 }
 
-@-webkit-keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
 .close {
     color: white;
     float: right;
@@ -861,7 +839,7 @@ hr {
     transition: 0.3s;
 }
 
-.img-modal {
+.img_modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -875,17 +853,16 @@ hr {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.img-modalImage {
+.img_modalImage {
     margin: auto;
     display: block;
-    max-width: 700px;
 }
 
 .modal-img-close {
     position: absolute;
-    top: 60px;
-    right: 30px;
-    color: #f1f1f1;
+    top: 15px;
+    right: 15px;
+    color: #000000;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -897,12 +874,35 @@ hr {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
-    .img-modalImage {
-        width: 100%;
-    }
+.product-button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
 }
 
+.product-button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.cartModal {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.cartModal:hover {
+    background-color: #4CAF50;
+    color: white;
+}
 
 @media only screen and (min-width: 426px) {
     .item-grid {
@@ -952,6 +952,10 @@ hr {
 
     .icon-sort {
         display: none;
+    }
+
+    .img_modalImage {
+        max-width: 700px;
     }
 }
 
@@ -1070,5 +1074,27 @@ hr {
     100% {
         opacity: 1;
         -moz-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
     }
 }

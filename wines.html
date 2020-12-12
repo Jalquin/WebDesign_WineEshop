@@ -6,7 +6,6 @@
     <link href="logo.png" rel="icon" type="image/png"/>
     <script src="js/navbar.js"></script>
     <script src="js/shop.js"></script>
-    <script src="js/modal.js"></script>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="noindex,follow" name="robots"/>
@@ -49,25 +48,6 @@
 
 <main>
     <h1>Nabídka vín</h1>
-    <!-- //modal preview//
-        <button id="myBtn">Open Modal</button>
-
-        <div class="modal" id="myModal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <h2>Modal Header</h2>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
-                </div>
-                <div class="modal-footer">
-                    <h3>Modal Footer</h3>
-                </div>
-            </div>
-        </div>
-    -->
     <div class="row">
 
         <div class="shop-side">
@@ -182,115 +162,166 @@
                 <div class="gallery">
                     <img alt="Riesling trocken 2019" class="ImgThumbnail" height="600"
                          src="sortiment_img/white/geil_riesling_trocken_2019.jpg" width="800">
-                    <!--
-                    <a href="sortiment_img/white/geil_riesling_trocken_2019.jpg" target="_blank">
-                        <img alt="Riesling trocken 2019" height="600"
-                             src="sortiment_img/white/geil_riesling_trocken_2019.jpg" width="800">
-                    </a>
-                    -->
                     <div class="desc">Riesling trocken 2019</div>
                     <div class="price">210 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/white/geil.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
                     <img alt="Oris 2017" class="ImgThumbnail" height="600"
                          src="sortiment_img/white/ciu_ciu_oris_%202019.jpg"
                          width="800">
-                    <!--
-                    <a href="sortiment_img/white/ciu_ciu_oris_%202019.jpg" target="_blank">
-                        <img alt="Oris 2017" height="600" src="sortiment_img/white/ciu_ciu_oris_%202019.jpg"
-                             width="800">
-                    </a>
-                    -->
                     <div class="desc">Oris 2017</div>
                     <div class="price">180 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/white/oris.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/white/vaclav_palava_terroir_2017_2018.jpg" target="_blank">
-                        <img alt="Pálava Terroir 2017/2018"
-                             height="600" src="sortiment_img/white/vaclav_palava_terroir_2017_2018.jpg" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Pálava Terroir 2017/2018"
+                         height="600" src="sortiment_img/white/vaclav_palava_terroir_2017_2018.jpg" width="800">
                     <div class="desc">Pálava Terroir 2017/2018</div>
                     <div class="price">370 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/white/palava.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
 
                 <div class="gallery">
-                    <a href="sortiment_img/sparkling/Hacienda_cava.jpg" target="_blank">
-                        <img alt="Cava del Charche Brut" height="600" src="sortiment_img/sparkling/Hacienda_cava.jpg"
-                             width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Cava del Charche Brut" height="600" src="sortiment_img/sparkling/Hacienda_cava.jpg"
+                         width="800">
                     <div class="desc">Cava del Charche Brut</div>
                     <div class="price">215 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/sparkling/hacienda.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/sparkling/gardet_120_aniversary_extra_brut.png" target="_blank">
-                        <img alt="Gardet 120 Anniversary Extra Brut"
-                             height="600" src="sortiment_img/sparkling/gardet_120_aniversary_extra_brut.png"
-                             width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Gardet 120 Anniversary Extra Brut"
+                         height="600" src="sortiment_img/sparkling/gardet_120_aniversary_extra_brut.png"
+                         width="800">
                     <div class="desc">Gardet 120 Anniversary Extra Brut</div>
                     <div class="price">3715 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/sparkling/gardet.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/sparkling/castellroig_brut_nature_reserva_2017.jpg" target="_blank">
-                        <img alt="Castellroig Brut Nature Reserva 2017"
-                             height="600" src="sortiment_img/sparkling/castellroig_brut_nature_reserva_2017.jpg"
-                             width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Castellroig Brut Nature Reserva 2017"
+                         height="600" src="sortiment_img/sparkling/castellroig_brut_nature_reserva_2017.jpg"
+                         width="800">
                     <div class="desc">Castellroig Brut Nature Reserva 2017</div>
                     <div class="price">345 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/sparkling/castellroig.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
 
                 <div class="gallery">
-                    <a href="sortiment_img/red/los_haroldos_hermandad_2015.jpg" target="_blank">
-                        <img alt="Hermandad Malbec 2015" height="600"
-                             src="sortiment_img/red/los_haroldos_hermandad_2015.jpg" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Hermandad Malbec 2015" height="600"
+                                          src="sortiment_img/red/los_haroldos_hermandad_2015.jpg" width="800">
                     <div class="desc">Hermandad Malbec 2015</div>
                     <div class="price">550 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/red/losharoldos.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/red/vin_de_france_merlot_2018.jpg" target="_blank">
-                        <img alt="Merlot Vin de France 2018" height="600"
-                             src="sortiment_img/red/vin_de_france_merlot_2018.jpg" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Merlot Vin de France 2018" height="600"
+                         src="sortiment_img/red/vin_de_france_merlot_2018.jpg" width="800">
                     <div class="desc">Merlot Vin de France 2018</div>
                     <div class="price">175 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/red/france.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/red/calem_fineruby.jpg" target="_blank">
-                        <img alt="Fine tawny" height="600" src="sortiment_img/red/calem_fineruby.jpg" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Fine tawny" height="600" src="sortiment_img/red/calem_fineruby.jpg" width="800">
                     <div class="desc">Fine tawny</div>
                     <div class="price">310 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/red/calem.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
 
                 <div class="gallery">
-                    <a href="sortiment_img/pink/sedlak_frankovka_rose_2019.jpg" target="_blank">
-                        <img alt="Frankovka rosé 2019" height="600"
-                             src="sortiment_img/pink/sedlak_frankovka_rose_2019.jpg" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Frankovka rosé 2019" height="600"
+                                          src="sortiment_img/pink/sedlak_frankovka_rose_2019.jpg" width="800">
                     <div class="desc">Frankovka rosé 2019</div>
                     <div class="price">130 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/pink/sedlak.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/pink/chocalan_rose_reserva_2017.png" target="_blank">
-                        <img alt="Chocalan Rosé Reserva 2017" height="600"
-                             src="sortiment_img/pink/chocalan_rose_reserva_2017.png" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Chocalan Rosé Reserva 2017" height="600"
+                         src="sortiment_img/pink/chocalan_rose_reserva_2017.png" width="800">
                     <div class="desc">Chocalan Rosé Reserva 2017</div>
                     <div class="price">270 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/pink/chocalan.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
                 <div class="gallery">
-                    <a href="sortiment_img/pink/direder_rose_2019.jpg" target="_blank">
-                        <img alt="Rosé 2019" height="600" src="sortiment_img/pink/direder_rose_2019.jpg" width="800">
-                    </a>
+                    <img class="ImgThumbnail" alt="Rosé 2019" height="600" src="sortiment_img/pink/direder_rose_2019.jpg" width="800">
                     <div class="desc">Rosé 2019</div>
                     <div class="price">235 Kč</div>
+                    <div class="product-buttons">
+                        <form action="wines/pink/direder.html" method="get">
+                            <button class="product-button left" type="submit"><span>Detail &#x1F50E;</span></button>
+                        </form>
+                        <button class="product-button cartModal right">Přidat do košíku 🛒</button>
+                    </div>
                 </div>
 
-                <div class="img-modal">
-                    <span class="modal-img-close">&times;</span>
-                    <img alt="Modal image" class="img-modalImage" src=""/>
+                <div class="img_modal">
+                    <div class="modal-content">
+                        <span class="modal-img-close">&times;</span>
+                        <img alt="Modal image" class="img_modalImage" src=""/>
+                    </div>
+                </div>
+
+                <div class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Zboží přidáno do košíku!</h2>
+                        </div>
+                    </div>
                 </div>
 
             </div>

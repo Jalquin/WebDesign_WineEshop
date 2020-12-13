@@ -994,6 +994,7 @@ address p {
     border: 1px solid lightgrey;
     border-radius: 3px;
     margin: 20px;
+    overflow: auto;
 }
 
 .basket-row input[type=text] {
@@ -1024,7 +1025,7 @@ label {
     width: 100%;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .basket-btn:hover {
@@ -1050,6 +1051,16 @@ span.price {
 
 .red:hover {
     background-color: #e2372d;
+}
+
+.blue {
+    color: #01447e;
+}
+
+.summary-text {
+    font-size: 1.5rem;
+    text-align: right;
+    line-height: 2rem;
 }
 
 
@@ -1208,7 +1219,6 @@ span.price {
 
     .basket-row {
         flex-direction: row;
-        min-height: 25vh;
     }
 
     .basket-col-25 {

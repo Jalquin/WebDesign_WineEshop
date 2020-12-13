@@ -907,20 +907,6 @@ address p {
     font-weight: bold;
 }
 
-.padding {
-    padding: 10px;
-    margin-top: 3.5rem;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.padding h1 {
-    margin-bottom: 10px;
-}
-
-.padding .breadcrumb-padding {
-    margin-bottom: 10px;
-}
-
 .basket {
     flex: 100%;
     margin: 10px;
@@ -984,7 +970,6 @@ address p {
 .basket-col-25 {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    margin-bottom: 20px;
 }
 
 .basket-col-50 {
@@ -1008,6 +993,7 @@ address p {
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
+    margin: 20px;
 }
 
 .basket-row input[type=text] {

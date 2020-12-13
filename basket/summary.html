@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html lang="cs">
+
+<head>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link href="../logo.png" rel="icon" type="image/png"/>
+    <script src="../js/navbar.js"></script>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Wine Market - Košík - Přehled</title>
+</head>
+
+<body>
+
+<header>
+    <nav class="topnav" id="myTopnav">
+        <a class="logo" href="../index.html"><img alt="Firemní logo wine MARKET" src="../logo.svg"></a>
+        <div class="dropdown">
+            <a class="dropbtn" href="../wines.html">Nabídka vín</a>
+            <div class="dropdown-content">
+                <a href="../wines/wines_white.html">Bílá vína</a>
+                <a href="../wines/wines_red.html">Červená vína</a>
+                <a href="../wines/wines_pink.html">Růžová vína</a>
+                <a href="../wines/wines_sparkling.html">Šumivá vína</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" href="../accessories.html">Doplňky a delikatesy</a>
+            <div class="dropdown-content">
+                <a href="../accessories/wine_accessories.html">Doplňky</a>
+                <a href="../accessories/delikatessen.html">Delikatesy</a>
+            </div>
+        </div>
+        <a class="right" href="../about_us.html">O nás</a>
+        <a class="right" href="../contact.html">Kontakt</a>
+        <div class="dropdown right active">
+            <a class="dropbtn" href="../basket.html">🛒Košík</a>
+            <div class="dropdown-content">
+                <a>Počet položek: 21</a>
+                <a>Celková cena: 14 575,- Kč</a>
+            </div>
+        </div>
+        <a class="icon" href="javascript:void(0);" onclick="navCollapse()">&#9776;</a>
+    </nav>
+</header>
+
+
+<main>
+    <h1>Souhrn objednávky</h1>
+
+    <section class="breadcrumb-padding">
+        <ul class="breadcrumb">
+            <li><a href="../index.html">Domů</a></li>
+            <li>Košík</li>
+            <li>Košík - Platba</li>
+            <li>Souhrn objednávky</li>
+        </ul>
+    </section>
+
+    <section class="row">
+        <section class="basket">
+
+            <h2>Souhrn objednávky <span class="right"><b>🛒 21</b></span></h2>
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <div class="item">
+                        <a href="../wines/white/geil.html">Riesling trocken 2019</a>
+                        <div class="cart-price">210 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label>Počet:
+                            <p>12</p>
+                        </label>
+                    </div>
+                    <div class="sub-total-price">
+                        <p>2 520,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <div class="item">
+                        <a href="../wines/pink/chocalan.html">Chocalan Rosé Reserva 2017</a>
+                        <div class="cart-price">270 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label>Počet:
+                            <p>6</p>
+                        </label>
+                    </div>
+                    <div class="sub-total-price">
+                        <p>1 620,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <div class="item">
+                        <a href="../accessories/wine_accessories/vinoteka.html">Vinotéka Haier WS 32GAE</a>
+                        <div class="cart-price">10 185 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label>Počet:
+                            <p>1</p>
+                        </label>
+                    </div>
+                    <div class="sub-total-price">
+                        <p>10 185,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <div class="item">
+                        <a href="../accessories/delikatessen/marmelada.html">Marmeláda z Monastrellu</a>
+                        <div class="cart-price">125 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label>Počet:
+                            <p>2</p>
+                        </label>
+                    </div>
+                    <div class="sub-total-price">
+                        <p>250,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <h2>Celková cena: <span class="right">14 575,- Kč</span></h2>
+
+            <form action="../index.html">
+                <input class="basket-btn" type="submit" value="Děkujeme za nákup!">
+            </form>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <a>© 2020 Kristýna Svobodová, Jakub Červený a Jan Miškovský. Studentský projekt ČZU.</a>
+</footer>
+
+</body>
+</html>

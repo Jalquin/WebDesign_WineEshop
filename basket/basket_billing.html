@@ -4,6 +4,7 @@
 <head>
     <link href="../styles/style.css" rel="stylesheet">
     <link href="../logo.png" rel="icon" type="image/png"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="../js/navbar.js"></script>
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -31,17 +32,110 @@
                 <a href="../accessories/delikatessen.html">Delikatesy</a>
             </div>
         </div>
-        <a class="right active" href="../basket.html">🛒Košík</a>
         <a class="right" href="../about_us.html">O nás</a>
         <a class="right" href="../contact.html">Kontakt</a>
+        <div class="dropdown right active">
+            <a class="dropbtn" href="../basket.html">🛒Košík</a>
+            <div class="dropdown-content">
+                <a>Počet položek: 21</a>
+                <a>Celková cena: 14 575,- Kč</a>
+            </div>
+        </div>
         <a class="icon" href="javascript:void(0);" onclick="navCollapse()">&#9776;</a>
     </nav>
 </header>
 
-<main>
-    <h1>Košík</h1>
-    <section class="row">
+<main class="padding">
+    <h1>Košík - Platba</h1>
+    <section class="breadcrumb-padding">
+        <ul class="breadcrumb">
+            <li><a href="../index.html">Domů</a></li>
+            <li><a href="../basket.html">Košík</a></li>
+            <li>Košík - Platba</li>
+        </ul>
+    </section>
+    <section class="basket-row">
+        <section class="basket-col-50">
+            <div class="basket-container">
 
+                <div class="basket-row">
+                    <div class="basket-col-50">
+                        <h3>Fakturační adresa</h3>
+                        <label for="fname">👤 Celé jméno</label>
+                        <input id="fname" name="firstname" placeholder="Jan Novák" type="text">
+                        <label for="email">📧 Email</label>
+                        <input id="email" name="email" placeholder="jan@email.cz" type="text">
+                        <label for="adr">✉ Adresa</label>
+                        <input id="adr" name="address" placeholder="Horní 156" type="text">
+                        <label for="city">🏙 Město</label>
+                        <input id="city" name="city" placeholder="Boskovice" type="text">
+
+                        <div class="basket-row">
+                            <div class="basket-col-50">
+                                <label for="phone">☎ Telefon</label>
+                                <input id="phone" name="phone" placeholder="+420 777 777 777" type="text">
+                            </div>
+                            <div class="basket-col-50">
+                                <label for="zip">PSČ</label>
+                                <input id="zip" name="zip" placeholder="150 00" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="basket-col-50">
+                        <h3>Platba</h3>
+                        <label>Příjmané platební karty:</label>
+                        <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        <label for="cname">Jméno na kartě</label>
+                        <input id="cname" name="cardname" placeholder="Jan Novák" type="text">
+                        <label for="ccnum">Číslo platební karty</label>
+                        <input id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" type="text">
+                        <label for="expmonth">Měsíc expirace</label>
+                        <input id="expmonth" name="expmonth" placeholder="Září" type="text">
+                        <div class="basket-row">
+                            <div class="basket-col-50">
+                                <label for="expyear">Rok expirace</label>
+                                <input id="expyear" name="expyear" placeholder="2020" type="text">
+                            </div>
+                            <div class="basket-col-50">
+                                <label for="cvv">CVV</label>
+                                <input id="cvv" name="cvv" placeholder="352" type="text">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <section>
+                    <form action="../basket.html">
+                        <input class="basket-btn red" type="submit" value="Zpět do košíku">
+                    </form>
+
+                    <form action="summary.html">
+                        <input class="basket-btn" type="submit" value="Zaplatit">
+                    </form>
+                </section>
+            </div>
+        </section>
+        <section class="basket-col-25">
+            <div class="basket-container">
+                <h4>Košík <span class="right"><b>🛒 21</b></span></h4>
+                <p><a href="../wines/white/geil.html">Riesling trocken 2019</a><br> Počet: <span
+                >12</span> <span class="price">2 520,- Kč</span></p>
+                <p><a href="../wines/pink/chocalan.html">Chocalan Rosé Reserva 2017</a><br> Počet: <span
+                >6</span> <span class="price">1 620,- Kč</span></p>
+                <p><a href="../accessories/wine_accessories/vinoteka.html">Vinotéka Haier WS 32GAE</a><br> Počet: <span
+                >1</span> <span class="price">10 185,- Kč</span></p>
+                <p><a href="../accessories/delikatessen/marmelada.html">Marmeláda z Monastrellu</a><br> Počet: <span
+                >2</span> <span class="price">250,- Kč</span></p>
+                <hr>
+                <b><p>Celková cena: <span class="right">14 575,- Kč</span></p></b>
+            </div>
+        </section>
     </section>
 </main>
 

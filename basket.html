@@ -37,8 +37,8 @@
         <div class="dropdown right active">
             <a class="dropbtn" href="basket.html">🛒Košík</a>
             <div class="dropdown-content">
-                <a>Počet položek: 6</a>
-                <a>Celková cena: 2500,- Kč</a>
+                <a>Počet položek: 21</a>
+                <a>Celková cena: 14 575,- Kč</a>
             </div>
         </div>
         <a class="icon" href="javascript:void(0);" onclick="navCollapse()">&#9776;</a>
@@ -47,37 +47,114 @@
 
 <main>
     <h1>Košík</h1>
+
+    <section class="breadcrumb-padding">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Domů</a></li>
+            <li>Košík</li>
+        </ul>
+    </section>
+
     <section class="row">
-        <div class="contact-side">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <div class="fakeimg" style="height:60px;">Image</div>
-            <br>
-            <div class="fakeimg" style="height:60px;">Image</div>
-            <br>
-            <div class="fakeimg" style="height:60px;">Image</div>
-        </div>
-        <div class="contact-main">
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Dec 7, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco.</p>
-            <br>
-            <h2>TITLE HEADING</h2>
-            <h5>Title description, Sep 2, 2017</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco.</p>
-        </div>
+        <section class="basket">
+
+            <h2>Košík <span class="right"><b>🛒 21</b></span></h2>
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <span class="modal-img-close">&times;</span>
+                    <div class="item">
+                        <a href="wines/white/geil.html">Riesling trocken 2019</a>
+                        <img alt="Riesling trocken 2019" height="600"
+                             src="sortiment_img/white/geil_riesling_trocken_2019.jpg" width="800">
+                        <div class="cart-price">210 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label for="quantity1">Počet:</label>
+                        <input id="quantity1" max="100" min="1" name="quantity" type="number" value="12">
+                    </div>
+                    <div class="sub-total-price">
+                        <p>2 520,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <span class="modal-img-close">&times;</span>
+                    <div class="item">
+                        <a href="wines/pink/chocalan.html">Chocalan Rosé Reserva 2017</a>
+                        <img alt="Chocalan Rosé Reserva 2017" height="600"
+                             src="sortiment_img/pink/chocalan_rose_reserva_2017.png" width="800">
+                        <div class="cart-price">270 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label for="quantity2">Počet:</label>
+                        <input id="quantity2" max="100" min="1" name="quantity" type="number" value="6">
+                    </div>
+                    <div class="sub-total-price">
+                        <p>1 620,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <span class="modal-img-close">&times;</span>
+                    <div class="item">
+                        <a href="accessories/wine_accessories/vinoteka.html">Vinotéka Haier WS 32GAE</a>
+                        <img alt="Vinotéka Haier WS 32GAE" height="920"
+                             src="sortiment_img/accesorries/vinotéka_Haier_1.jpg" width="800">
+                        <div class="cart-price">10 185 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label for="quantity3">Počet:</label>
+                        <input id="quantity3" max="100" min="1" name="quantity" type="number" value="1">
+                    </div>
+                    <div class="sub-total-price">
+                        <p>10 185,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <div class="cart-gallery">
+                    <span class="modal-img-close">&times;</span>
+                    <div class="item">
+                        <a href="accessories/delikatessen/marmelada.html">Marmeláda z Monastrellu</a>
+                        <img alt="Marmeláda z Monastrellu" height="600"
+                             src="sortiment_img/accesorries/mermelada_monastrell.jpg" width="800">
+                        <div class="cart-price">125 Kč</div>
+                    </div>
+                    <div class="amount">
+                        <label for="quantity4">Počet:</label>
+                        <input id="quantity4" max="100" min="1" name="quantity" type="number" value="2">
+                    </div>
+                    <div class="sub-total-price">
+                        <p>250,- Kč</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <h2>Celková cena: <span class="right">14 575,- Kč</span></h2>
+            <section>
+                <form action="wines.html">
+                    <input class="basket-btn red" type="submit" value="Zpět k nákupu">
+                </form>
+                <form action="basket/basket_billing.html">
+                    <input class="basket-btn" type="submit" value="Pokračovat na platbu">
+                </form>
+            </section>
+        </section>
     </section>
 </main>
 
